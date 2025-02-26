@@ -15,13 +15,11 @@ This project implements an automated image scraping, filtering, and semantic sea
 
  ## How its Work
 
-   1.Scrapes Images – Downloads images from the specified website. 
-   2.Filters Ads – Removes small-sized images (potential ads).
-   3.Extracts Features – Uses ResNet-50 to generate embeddings.
-   4.Builds FAISS Index – Stores embeddings for fast retrieval.
-   5.Searches Similar Images – Compares a query image against the indexed images.
+   This project scrapes images from a website, filters ads by removing small-sized images, and extracts features using ResNet-50 to generate embeddings. 
+   These embeddings are then stored in a FAISS index for efficient retrieval, enabling a semantic search that compares a query image against indexed images to 
+   find the most similar matches.
 
  ## Future Enhancements
-   1.Implement deep learning-based ad filtering using CNNs.
-   2.Add support for multi-threaded scraping for faster downloads.
-   3.Improve feature extraction using CLIP or EfficientNet.
+   Future enhancements for this project include implementing deep learning-based ad filtering using CNNs for better accuracy, 
+   adding multi-threaded scraping to speed up image downloads, and improving feature extraction by integrating advanced models like
+   CLIP or EfficientNet for more precise semantic search.
