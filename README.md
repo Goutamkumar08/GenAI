@@ -2,4 +2,26 @@
 
  Question 1 .Image Scraping, Filtering & Semantic Search
 
-This project automates image scraping, filtering, and semantic search using deep learning and FAISS. It scrapes images from websites, removes ads based on size, and extracts feature embeddings using a pretrained ResNet-50 model. The extracted features are indexed with FAISS, enabling fast semantic search to find visually similar images. Built with Python, PyTorch, FAISS, and NumPy, it is useful for e-commerce, content-based image retrieval, and automated web scraping. Future improvements include CNN-based ad filtering and advanced feature extraction models. 
+## Overview
+This project implements an automated image scraping, filtering, and semantic search system using deep learning and FAISS (Facebook AI Similarity Search). It enables efficient image retrieval by extracting features from images and performing similarity searches.
+
+## Tech Stack 
+   Python
+   Requests, BeautifulSoup - for web scraping
+   Pillow (PIL) - for image processing
+   PyTorch, Torchvision - for feature extraction using ResNet-50
+   FAISS -for efficient similarity search
+   NumPy - for handling image embeddings
+
+ ## How its Work
+
+   Scrapes Images – Downloads images from the specified website.
+   Filters Ads – Removes small-sized images (potential ads).
+   Extracts Features – Uses ResNet-50 to generate embeddings.
+   Builds FAISS Index – Stores embeddings for fast retrieval.
+   Searches Similar Images – Compares a query image against the indexed images.
+
+ ## Future Enhancements
+   Implement deep learning-based ad filtering using CNNs.
+   Add support for multi-threaded scraping for faster downloads.
+   Improve feature extraction using CLIP or EfficientNet.
