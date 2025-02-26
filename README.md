@@ -15,7 +15,7 @@ This project implements an automated image scraping, filtering, and semantic sea
 
  ## How its Work
 
-   1.Scrapes Images – Downloads images from the specified website.
+   1.Scrapes Images – Downloads images from the specified website. 
    2.Filters Ads – Removes small-sized images (potential ads).
    3.Extracts Features – Uses ResNet-50 to generate embeddings.
    4.Builds FAISS Index – Stores embeddings for fast retrieval.
