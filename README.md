@@ -6,8 +6,8 @@
 This project implements an automated image scraping, filtering, and semantic search system using deep learning and FAISS (Facebook AI Similarity Search). It enables efficient image retrieval by extracting features from images and performing similarity searches.
 
 ## Tech Stack 
-   Python
-   Requests, BeautifulSoup - for web scraping
+   1. Python
+   2. Requests, BeautifulSoup - for web scraping
    Pillow (PIL) - for image processing
    PyTorch, Torchvision - for feature extraction using ResNet-50
    FAISS -for efficient similarity search
